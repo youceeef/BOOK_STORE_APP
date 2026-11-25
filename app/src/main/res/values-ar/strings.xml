@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">BookStore</string>
+
+    <!-- Navigation -->
+    <string name="nav_catalog">الكتب</string>
+    <string name="nav_wishlist">المفضلة</string>
+    <string name="nav_bag">السلة</string>
+    <string name="nav_account">الحساب</string>
+
+    <!-- Common -->
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_apply">تطبيق</string>
+    <string name="action_clear">مسح</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_remove">إزالة</string>
+    <string name="action_sign_in">تسجيل الدخول</string>
+    <string name="action_sign_up">إنشاء حساب</string>
+    <string name="action_sign_out">تسجيل الخروج</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="in_stock">متوفر</string>
+    <string name="out_of_stock">نفد المخزون</string>
+
+    <!-- Catalog -->
+    <string name="catalog_search_hint">ابحث بالعنوان أو المؤلف أو ISBN…</string>
+    <string name="catalog_all_categories">الكل</string>
+    <string name="catalog_filters">التصفية والترتيب</string>
+    <string name="catalog_empty_title">لا توجد كتب</string>
+    <string name="catalog_empty_subtitle">جرّب تعديل البحث أو معايير التصفية.</string>
+    <string name="catalog_sort_latest">الأحدث</string>
+    <string name="catalog_sort_price_asc">السعر: من الأقل للأعلى</string>
+    <string name="catalog_sort_price_desc">السعر: من الأعلى للأقل</string>
+    <string name="catalog_sort_title_asc">العنوان: أ–ي</string>
+    <string name="catalog_sort_title_desc">العنوان: ي–أ</string>
+    <string name="catalog_min_price">أدنى سعر (USD)</string>
+    <string name="catalog_max_price">أعلى سعر (USD)</string>
+    <string name="catalog_in_stock_only">المتوفر فقط</string>
+    <string name="catalog_load_more">تحميل المزيد</string>
+
+    <!-- Book Detail -->
+    <string name="book_add_to_bag">أضف إلى السلة</string>
+    <string name="book_read_sample">قراءة مقتطف</string>
+    <string name="book_sample_excerpt">مقتطف من الكتاب</string>
+    <string name="book_related_titles">كتب ذات صلة</string>
+    <string name="book_reviews_section">مراجعات القراء</string>
+    <string name="book_write_review">اكتب مراجعة</string>
+    <string name="book_verified_purchase">شراء موثق</string>
+    <string name="book_helpful">مفيد</string>
+    <string name="book_review_rating">التقييم</string>
+    <string name="book_review_title">العنوان (اختياري)</string>
+    <string name="book_review_comment">مراجعتك</string>
+    <string name="book_submit_review">نشر المراجعة</string>
+
+    <!-- Cart & Checkout -->
+    <string name="cart_title">سلة التسوق</string>
+    <string name="cart_empty_title">سلتك فارغة</string>
+    <string name="cart_empty_subtitle">تصفح الكتب وأضف عناوينك المفضلة.</string>
+    <string name="cart_clear_bag">إفراغ السلة</string>
+    <string name="cart_coupon_hint">رمز القسيمة</string>
+    <string name="cart_subtotal">المجموع الفرعي</string>
+    <string name="cart_discount">الخصم</string>
+    <string name="cart_total">الإجمالي</string>
+    <string name="cart_proceed_checkout">إتمام الشراء</string>
+    <string name="checkout_title">الدفع والشحن</string>
+    <string name="checkout_shipping_header">تفاصيل الشحن</string>
+    <string name="checkout_full_name">الاسم الكامل</string>
+    <string name="checkout_address">العنوان</string>
+    <string name="checkout_city">المدينة</string>
+    <string name="checkout_postal_code">الرمز البريدي</string>
+    <string name="checkout_pay_now">الدفع وتأكيد الطلب</string>
+    <string name="checkout_place_free_order">تأكيد الطلب المجاني</string>
+    <string name="checkout_reservation_note">يتم حجز المخزون لمدة %1$d دقيقة عند بدء الدفع.</string>
+
+    <!-- Orders -->
+    <string name="orders_title">طلباتي</string>
+    <string name="orders_empty_title">لا توجد طلبات بعد</string>
+    <string name="orders_empty_subtitle">ستظهر طلباتك المكتملة وتحديثات الشحن هنا.</string>
+    <string name="order_detail_title">الطلب #%1$d</string>
+    <string name="order_step_confirmed">تم التأكيد</string>
+    <string name="order_step_processing">قيد التجهيز</string>
+    <string name="order_step_shipped">تم الشحن</string>
+    <string name="order_step_delivered">تم التسليم</string>
+    <string name="order_step_cancelled">طلب ملغى</string>
+    <string name="order_track_package">تتبع الشحنة</string>
+    <string name="order_download_invoice">تحميل الفاتورة PDF</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist_title">قائمة الأمنيات</string>
+    <string name="wishlist_empty_title">قائمة الأمنيات فارغة</string>
+    <string name="wishlist_empty_subtitle">اضغط على القلب لحفظ أي كتاب لوقت لاحق.</string>
+    <string name="wishlist_move_to_bag">نقل إلى السلة</string>
+
+    <!-- Auth & Profile -->
+    <string name="auth_welcome">مرحبًا بعودتك</string>
+    <string name="auth_create_account">إنشاء حساب جديد</string>
+    <string name="auth_email">البريد الإلكتروني</string>
+    <string name="auth_password">كلمة المرور</string>
+    <string name="auth_confirm_password">تأكيد كلمة المرور</string>
+    <string name="auth_full_name">الاسم الكامل</string>
+    <string name="auth_forgot_password">نسيت كلمة المرور؟</string>
+    <string name="auth_reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="auth_reset_token">رمز إعادة التعيين</string>
+    <string name="auth_send_reset_link">إرسال رابط الاستعادة</string>
+    <string name="auth_verify_email_title">تأكيد البريد الإلكتروني مطلوب</string>
+    <string name="auth_verify_email_body">يرجى تأكيد بريدك الإلكتروني للوصول إلى الدفع والطلبات وإعدادات كلمة المرور.</string>
+    <string name="auth_resend_verification">إعادة إرسال رسالة التفعيل</string>
+    <string name="profile_title">الحساب</string>
+    <string name="profile_edit">تعديل الملف الشخصي</string>
+    <string name="profile_change_password">تغيير كلمة المرور</string>
+    <string name="profile_delete_account">حذف الحساب</string>
+    <string name="profile_current_password">كلمة المرور الحالية</string>
+    <string name="profile_new_password">كلمة المرور الجديدة</string>
+    <string name="profile_phone">الهاتف</string>
+    <string name="profile_bio">نبذة</string>
+    <string name="profile_address_line1">العنوان السطر 1</string>
+    <string name="profile_address_line2">العنوان السطر 2</string>
+    <string name="profile_state">الولاية / المنطقة</string>
+    <string name="profile_country">الدولة</string>
+    <string name="settings_language">اللغة</string>
+</resources>

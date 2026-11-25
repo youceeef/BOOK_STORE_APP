@@ -1,0 +1,6 @@
+{
+  "name": "BookStore",
+  "description": "Native Android bookstore client implementing the Mobile REST API v1 specification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

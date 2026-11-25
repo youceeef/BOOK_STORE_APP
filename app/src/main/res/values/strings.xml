@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">BookStore</string>
+
+    <!-- Navigation -->
+    <string name="nav_catalog">Catalog</string>
+    <string name="nav_wishlist">Wishlist</string>
+    <string name="nav_bag">Bag</string>
+    <string name="nav_account">Account</string>
+
+    <!-- Common -->
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_back">Navigate back</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Create Account</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="loading">Loading…</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_of_stock">Out of Stock</string>
+
+    <!-- Catalog -->
+    <string name="catalog_search_hint">Search title, author, or ISBN…</string>
+    <string name="catalog_all_categories">All</string>
+    <string name="catalog_filters">Filters &amp; Sort</string>
+    <string name="catalog_empty_title">No books found</string>
+    <string name="catalog_empty_subtitle">Try adjusting your search or filter criteria.</string>
+    <string name="catalog_sort_latest">Latest</string>
+    <string name="catalog_sort_price_asc">Price: Low to High</string>
+    <string name="catalog_sort_price_desc">Price: High to Low</string>
+    <string name="catalog_sort_title_asc">Title: A–Z</string>
+    <string name="catalog_sort_title_desc">Title: Z–A</string>
+    <string name="catalog_min_price">Min Price (USD)</string>
+    <string name="catalog_max_price">Max Price (USD)</string>
+    <string name="catalog_in_stock_only">In stock only</string>
+    <string name="catalog_load_more">Load more books</string>
+
+    <!-- Book Detail -->
+    <string name="book_add_to_bag">Add to Bag</string>
+    <string name="book_read_sample">Read Sample</string>
+    <string name="book_sample_excerpt">Sample Excerpt</string>
+    <string name="book_related_titles">Related Books</string>
+    <string name="book_reviews_section">Reader Reviews</string>
+    <string name="book_write_review">Write a Review</string>
+    <string name="book_verified_purchase">Verified Purchase</string>
+    <string name="book_helpful">Helpful</string>
+    <string name="book_review_rating">Rating</string>
+    <string name="book_review_title">Headline (optional)</string>
+    <string name="book_review_comment">Your review</string>
+    <string name="book_submit_review">Publish Review</string>
+
+    <!-- Cart & Checkout -->
+    <string name="cart_title">Shopping Bag</string>
+    <string name="cart_empty_title">Your bag is empty</string>
+    <string name="cart_empty_subtitle">Explore the catalog and add volumes to your bag.</string>
+    <string name="cart_clear_bag">Clear Bag</string>
+    <string name="cart_coupon_hint">Coupon code</string>
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="cart_discount">Discount</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_proceed_checkout">Proceed to Checkout</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_shipping_header">Shipping Details</string>
+    <string name="checkout_full_name">Full Name</string>
+    <string name="checkout_address">Street Address</string>
+    <string name="checkout_city">City</string>
+    <string name="checkout_postal_code">Postal Code</string>
+    <string name="checkout_pay_now">Pay &amp; Place Order</string>
+    <string name="checkout_place_free_order">Place Free Order</string>
+    <string name="checkout_reservation_note">Stock is reserved for %1$d minutes once payment begins.</string>
+
+    <!-- Orders -->
+    <string name="orders_title">My Orders</string>
+    <string name="orders_empty_title">No orders yet</string>
+    <string name="orders_empty_subtitle">Completed orders and tracking updates will appear here.</string>
+    <string name="order_detail_title">Order #%1$d</string>
+    <string name="order_step_confirmed">Confirmed</string>
+    <string name="order_step_processing">Processing</string>
+    <string name="order_step_shipped">Shipped</string>
+    <string name="order_step_delivered">Delivered</string>
+    <string name="order_step_cancelled">Order Cancelled</string>
+    <string name="order_track_package">Track Shipment</string>
+    <string name="order_download_invoice">Download PDF Invoice</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist_title">Saved Volumes</string>
+    <string name="wishlist_empty_title">Your wishlist is empty</string>
+    <string name="wishlist_empty_subtitle">Tap the heart on any book to save it for later.</string>
+    <string name="wishlist_move_to_bag">Move to Bag</string>
+
+    <!-- Auth & Profile -->
+    <string name="auth_welcome">Welcome Back</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_email">Email Address</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_confirm_password">Confirm Password</string>
+    <string name="auth_full_name">Full Name</string>
+    <string name="auth_forgot_password">Forgot Password?</string>
+    <string name="auth_reset_password">Reset Password</string>
+    <string name="auth_reset_token">Reset Token</string>
+    <string name="auth_send_reset_link">Send Reset Link</string>
+    <string name="auth_verify_email_title">Email Verification Required</string>
+    <string name="auth_verify_email_body">Please verify your email address to access checkout, orders, and password security settings.</string>
+    <string name="auth_resend_verification">Resend Verification Email</string>
+    <string name="profile_title">Account</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_change_password">Change Password</string>
+    <string name="profile_delete_account">Delete Account</string>
+    <string name="profile_current_password">Current Password</string>
+    <string name="profile_new_password">New Password</string>
+    <string name="profile_phone">Phone</string>
+    <string name="profile_bio">Bio</string>
+    <string name="profile_address_line1">Address Line 1</string>
+    <string name="profile_address_line2">Address Line 2</string>
+    <string name="profile_state">State / Province</string>
+    <string name="profile_country">Country</string>
+    <string name="settings_language">Language</string>
+</resources>

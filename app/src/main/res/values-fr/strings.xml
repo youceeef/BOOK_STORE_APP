@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">BookStore</string>
+
+    <!-- Navigation -->
+    <string name="nav_catalog">Catalogue</string>
+    <string name="nav_wishlist">Favoris</string>
+    <string name="nav_bag">Panier</string>
+    <string name="nav_account">Compte</string>
+
+    <!-- Common -->
+    <string name="action_retry">Réessayer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_apply">Appliquer</string>
+    <string name="action_clear">Effacer</string>
+    <string name="action_close">Fermer</string>
+    <string name="action_back">Retour</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="action_confirm">Confirmer</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_remove">Retirer</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_up">Créer un compte</string>
+    <string name="action_sign_out">Se déconnecter</string>
+    <string name="loading">Chargement…</string>
+    <string name="in_stock">En stock</string>
+    <string name="out_of_stock">Rupture de stock</string>
+
+    <!-- Catalog -->
+    <string name="catalog_search_hint">Rechercher titre, auteur ou ISBN…</string>
+    <string name="catalog_all_categories">Tous</string>
+    <string name="catalog_filters">Filtres et tri</string>
+    <string name="catalog_empty_title">Aucun livre trouvé</string>
+    <string name="catalog_empty_subtitle">Essayez de modifier votre recherche ou vos filtres.</string>
+    <string name="catalog_sort_latest">Nouveautés</string>
+    <string name="catalog_sort_price_asc">Prix croissant</string>
+    <string name="catalog_sort_price_desc">Prix décroissant</string>
+    <string name="catalog_sort_title_asc">Titre : A–Z</string>
+    <string name="catalog_sort_title_desc">Titre : Z–A</string>
+    <string name="catalog_min_price">Prix min (USD)</string>
+    <string name="catalog_max_price">Prix max (USD)</string>
+    <string name="catalog_in_stock_only">En stock uniquement</string>
+    <string name="catalog_load_more">Charger plus</string>
+
+    <!-- Book Detail -->
+    <string name="book_add_to_bag">Ajouter au panier</string>
+    <string name="book_read_sample">Lire un extrait</string>
+    <string name="book_sample_excerpt">Extrait</string>
+    <string name="book_related_titles">Livres similaires</string>
+    <string name="book_reviews_section">Avis des lecteurs</string>
+    <string name="book_write_review">Écrire un avis</string>
+    <string name="book_verified_purchase">Achat vérifié</string>
+    <string name="book_helpful">Utile</string>
+    <string name="book_review_rating">Note</string>
+    <string name="book_review_title">Titre (optionnel)</string>
+    <string name="book_review_comment">Votre avis</string>
+    <string name="book_submit_review">Publier l\'avis</string>
+
+    <!-- Cart & Checkout -->
+    <string name="cart_title">Panier</string>
+    <string name="cart_empty_title">Votre panier est vide</string>
+    <string name="cart_empty_subtitle">Parcourez le catalogue pour ajouter des livres.</string>
+    <string name="cart_clear_bag">Vider le panier</string>
+    <string name="cart_coupon_hint">Code promo</string>
+    <string name="cart_subtotal">Sous-total</string>
+    <string name="cart_discount">Remise</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_proceed_checkout">Passer la commande</string>
+    <string name="checkout_title">Paiement</string>
+    <string name="checkout_shipping_header">Adresse de livraison</string>
+    <string name="checkout_full_name">Nom complet</string>
+    <string name="checkout_address">Adresse</string>
+    <string name="checkout_city">Ville</string>
+    <string name="checkout_postal_code">Code postal</string>
+    <string name="checkout_pay_now">Payer et commander</string>
+    <string name="checkout_place_free_order">Valider la commande gratuite</string>
+    <string name="checkout_reservation_note">Le stock est réservé pendant %1$d minutes au lancement du paiement.</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Mes commandes</string>
+    <string name="orders_empty_title">Aucune commande</string>
+    <string name="orders_empty_subtitle">Vos commandes et suivis apparaîtront ici.</string>
+    <string name="order_detail_title">Commande #%1$d</string>
+    <string name="order_step_confirmed">Confirmée</string>
+    <string name="order_step_processing">Préparation</string>
+    <string name="order_step_shipped">Expédiée</string>
+    <string name="order_step_delivered">Livrée</string>
+    <string name="order_step_cancelled">Commande annulée</string>
+    <string name="order_track_package">Suivre le colis</string>
+    <string name="order_download_invoice">Télécharger la facture PDF</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist_title">Liste d\'envies</string>
+    <string name="wishlist_empty_title">Aucun livre sauvegardé</string>
+    <string name="wishlist_empty_subtitle">Touchez le cœur sur un livre pour le sauvegarder.</string>
+    <string name="wishlist_move_to_bag">Ajouter au panier</string>
+
+    <!-- Auth & Profile -->
+    <string name="auth_welcome">Bon retour</string>
+    <string name="auth_create_account">Créer un compte</string>
+    <string name="auth_email">Adresse e-mail</string>
+    <string name="auth_password">Mot de passe</string>
+    <string name="auth_confirm_password">Confirmer le mot de passe</string>
+    <string name="auth_full_name">Nom complet</string>
+    <string name="auth_forgot_password">Mot de passe oublié ?</string>
+    <string name="auth_reset_password">Réinitialiser le mot de passe</string>
+    <string name="auth_reset_token">Jeton de réinitialisation</string>
+    <string name="auth_send_reset_link">Envoyer le lien</string>
+    <string name="auth_verify_email_title">Vérification d\'e-mail requise</string>
+    <string name="auth_verify_email_body">Veuillez vérifier votre adresse e-mail pour accéder au paiement, aux commandes et à la sécurité.</string>
+    <string name="auth_resend_verification">Renvoyer l\'e-mail de vérification</string>
+    <string name="profile_title">Compte</string>
+    <string name="profile_edit">Modifier le profil</string>
+    <string name="profile_change_password">Changer le mot de passe</string>
+    <string name="profile_delete_account">Supprimer le compte</string>
+    <string name="profile_current_password">Mot de passe actuel</string>
+    <string name="profile_new_password">Nouveau mot de passe</string>
+    <string name="profile_phone">Téléphone</string>
+    <string name="profile_bio">Biographie</string>
+    <string name="profile_address_line1">Adresse ligne 1</string>
+    <string name="profile_address_line2">Adresse ligne 2</string>
+    <string name="profile_state">État / Région</string>
+    <string name="profile_country">Pays</string>
+    <string name="settings_language">Langue</string>
+</resources>

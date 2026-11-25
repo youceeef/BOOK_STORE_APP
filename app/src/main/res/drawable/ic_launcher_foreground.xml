@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Open book silhouette centered in 66dp safe zone -->
+    <path
+        android:fillColor="#FAF7F2"
+        android:pathData="M29,36 C36,33 45,33 52,38 L52,72 C45,67 36,67 29,70 Z M79,36 C72,33 63,33 56,38 L56,72 C63,67 72,67 79,70 Z" />
+    <!-- Spine accent & bookmark ribbon -->
+    <path
+        android:fillColor="#E08E45"
+        android:pathData="M62,36 L70,34 L70,56 L66,52 L62,56 Z" />
+    <!-- Bottom page shadow edge -->
+    <path
+        android:fillColor="#D9D0C1"
+        android:pathData="M27,73 C35,70 44,70 54,75 C64,70 73,70 81,73 L81,76 C73,73 64,73 54,78 C44,73 35,73 27,76 Z" />
+</vector>
